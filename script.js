@@ -72,7 +72,7 @@ function showLyrics(artist,title,showSongTitle){
        
         // display song title
         const songTitle = document.getElementById('songTitle') 
-        songTitle.innerHTML = showSongTitle
+        songTitle.innerHTML = `<h5>Song-Title: </h5>'${showSongTitle}'`
 
     })
    
